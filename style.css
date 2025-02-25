@@ -72,3 +72,86 @@ h4 {
     color: #00c3c9;
     text-decoration: underline;
 }
+
+
+/* Footer */
+#footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 70px;
+}
+
+#footer .columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px 70px;
+    
+}
+
+#footer .columns .col h4 {
+    padding-bottom: 20px;
+}
+
+#footer .columns .col {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#footer .columns .col a,
+#footer .columns .col p {
+    text-decoration: none;
+    color: #004e87;
+    padding: 8px 0px;
+}
+
+#footer .columns .col a:hover {
+    text-decoration: underline;
+}
+
+#footer .columns .col a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+
+
+#footer .columns .col a i:hover {
+    text-decoration: none;
+}
+
+#footer .columns .col .App {
+    font-size: 13px;
+}
+
+
+
+#footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #004e87;
+    font-size: 18px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+    
+}
+
+#footer .copyright ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+
+}
+
+#footer .copyright  li a {
+    padding: 7px;
+    text-decoration: none;
+    color:#004e87;
+    font-size: 23px;
+}
