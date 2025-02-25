@@ -46,3 +46,57 @@
     border: 1.5px solid #004e87;
 }
 
+/* Categories */
+
+#categories h1 {
+    
+    padding: 0px 70px;
+
+}
+
+
+#categories .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    
+}
+
+#categories .cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+#categories .cards .card:hover {
+    box-shadow: 4px 5px 5px  rgba(0, 0, 0, 0.1);
+}
+
+#categories .cards .card img {
+    width: 100%;
+    height: 40vh;
+    
+}
+
+#categories .cards .card h3 {
+    padding: 20px;
+    text-align: center;
+}
+
+#categories .cards .card h3 a {
+    text-decoration: none;
+    color: #004e87;
+}
+
+#categories .cards .card h3 a:hover{
+    color: #00c3c9;
+    text-decoration: underline;
+}
+
