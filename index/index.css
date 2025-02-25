@@ -46,16 +46,19 @@
     border: 1.5px solid #004e87;
 }
 
-/* Categories */
 
-#categories h1 {
+/* Categories & features */
+
+#categories h1,
+#features h1 {
     
     padding: 0px 70px;
 
 }
 
 
-#categories .cards {
+#categories .cards,
+#features .cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -65,32 +68,36 @@
     
 }
 
-#categories .cards .card {
+#categories .cards .card,
+#features .cards .card {
     display: flex;
     flex-direction: column;
     width: 260px;
     flex-direction: column;
     border-radius: 10px;
     margin-bottom: 30px;
-
+   
 }
 
-#categories .cards .card:hover {
+#categories .cards .card:hover,
+#features .cards .card:hover {
     box-shadow: 4px 5px 5px  rgba(0, 0, 0, 0.1);
 }
 
-#categories .cards .card img {
+#categories .cards .card img,
+#features .cards .card img{
     width: 100%;
-    height: 40vh;
-    
+    height: 40vh; 
 }
 
-#categories .cards .card h3 {
+#categories .cards .card h3,
+#features .cards .card h3 {
     padding: 20px;
     text-align: center;
 }
 
-#categories .cards .card h3 a {
+#categories .cards .card h3 a,
+#features .cards .card h3 a {
     text-decoration: none;
     color: #004e87;
 }
@@ -99,4 +106,5 @@
     color: #00c3c9;
     text-decoration: underline;
 }
+
 
