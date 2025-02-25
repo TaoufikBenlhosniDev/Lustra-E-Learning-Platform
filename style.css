@@ -7,7 +7,27 @@
 }
 
 
+h1 {
+    color: #004e87;
+    font-size: 40px;
+    margin-bottom: 10px;
+  
+}
+
+h2 {
+    color: #004e87;
+    font-size: 27px;
+}
+
+h3 {
+    color: #00c3c9;
     
+}
+
+h4 {
+    color: #004e87;
+    font-size: 20px;
+}
 
 /* Navbar */
 #navbar {
