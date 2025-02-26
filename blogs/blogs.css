@@ -1,0 +1,24 @@
+
+/* blogs categories */
+
+#blogs-categories ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+#blogs-categories ul li {
+    list-style: none;
+    padding: 5px 5px;
+    
+}
+
+#blogs-categories ul li a{
+    text-decoration: none;
+    color: #004e87;
+}
+
+#blogs-categories ul li a:hover{
+    text-decoration: underline;
+}
