@@ -1,0 +1,31 @@
+
+
+
+#search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0px;
+}
+
+
+#search input {
+    padding: 10px 18px;
+    font-size: 25px;
+    outline: none;
+    color: #004e87;
+}
+
+#search i {
+    position: relative;
+    left: -35px;
+    font-size: 22px ;
+    text-decoration: none;
+    color: grey;
+}
+
+
+
+#search  i:hover {
+    color: #004e87;
+}
