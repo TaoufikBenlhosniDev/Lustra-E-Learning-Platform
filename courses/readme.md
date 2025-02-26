@@ -41,7 +41,7 @@ courses/
 ## **Setup & Usage**  
 1. Open `courses.html` in a browser.  
 2. Ensure styles are correctly linked from `courses.css`.  
-3. JavaScript functionalities are handled in `index.js`.  
+3. JavaScript functionalities are handled in `courses.js`.  
 
 ---
 
