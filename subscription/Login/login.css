@@ -1,0 +1,127 @@
+
+#login {
+    display: flex;
+    flex-direction: row;
+    height: 110vh;
+
+}
+
+#login .login-bg {
+    background-image: url("../assets/images/subscription-bg.jpg");
+    width: 50%;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    text-align: center;
+}
+
+#login .login-bg h1 {
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+#login .login-bg h4 {
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+#login .login-form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#login .login-form h1 {
+    color: grey;
+    font-size: 30px;
+    padding: 70px 0px;
+}
+
+#login .login-form input {
+    height: 1.4rem;
+    padding: 0.7em 0.1em;
+    font-size: 20px;
+    width: 60%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: transparent;
+    color: rgb(87, 87, 88);
+    outline: none;
+    
+}
+
+#login .separator {
+    
+    width: 60% ;
+    height: .5px ;
+    background-color: #e0d7d7;
+    margin-bottom: 30px ;
+    
+}
+
+#login  button {
+    font-size: 20px;
+    font-weight: 800;
+    color:#8897a8;
+    cursor: pointer;
+    background-color: transparent;
+    transition: 0.9s ease;  
+    margin-bottom: 30px ;
+    border: none;
+    
+}
+
+#login  button:hover {
+   
+    color: #313e4c;
+}
+
+#login p {
+    margin-bottom: 40px ;
+}
+#login .register {
+    font-size: 18px;
+    color:#8897a8;
+    
+}
+
+#login .register:hover {
+    color : #313e4c;
+}  
+
+#login .direct-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #313e4c;
+    font-size: 22px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+#login div .direct-login  img {
+    width: 25px;
+    height: 25px;
+    
+   
+}
+
+#login .direct-login:hover{
+    border: 1.5px solid #313e4c;
+}
+
+
