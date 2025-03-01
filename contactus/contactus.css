@@ -10,6 +10,8 @@
 }
 
 #contactus-form form {
+    background-image: url("assets/images/contactus-bg.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,9 +22,11 @@
 
 #contactus-form form .form-div {
     padding: 50px 50px;
-    background-color: rgb(225, 226, 230);
+    background-color: rgba(225, 226, 230, 0.15);
     border-radius: 5px;
     box-shadow: 5px 15px 15px rgba(0, 0, 0, .1);
+    background: rgba(123, 114, 114, 0.15);
+    backdrop-filter: blur(2px)
 }
 
 #contactus-form form .form-div .info {
@@ -70,7 +74,7 @@
 
 #contactus-form form .form-div .agree {
     padding: 10px 15px;
-    color: #3f3a3a;
+    color: #fff;
     font-size: 15px;
 }
 
