@@ -1,0 +1,232 @@
+
+
+
+#article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 250px;
+    background-color: #fff;
+    border: 2px solid rgb(216, 213, 213);
+    padding: 0px 0px 50px 0px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+#article .article-info  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+
+}
+
+#article .article-info  h1 {
+
+    padding: 50px 0px;
+
+}
+
+#article .article-info  img {
+
+    width: 80%;
+    height: 62vh;
+
+}
+
+#article .article-info  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 0px;
+    
+}
+
+#article .article-info   li {
+    padding-left: 20px;
+}
+
+#article .article-info   li, a {
+    text-decoration: none;
+    color:#004e87;
+}
+
+#article .article-info a:hover{
+    color: #0373c4;
+    text-decoration: underline;
+}
+
+#article .article-content {
+    padding: 0px 35px;
+}
+
+#article .article-content p {
+    line-height: 30px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(86, 85, 85);
+}
+
+#article .interactive {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+#article .interactive .like-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+#article .interactive .like-section a {
+    text-decoration: none;
+    color: #004e87;
+}
+
+#article .interactive .like-section ul  {
+    display: flex;
+    flex-direction: row;
+    padding:0px 0px  0px 15px;
+}
+
+
+#article .interactive .like-section ul il{
+    left:  -20px;
+    overflow: hidden;
+}
+
+
+
+#article .interactive .like-section ul li a  img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    margin-left: -3px;
+    
+}
+
+
+#article .interactive hr {
+    width: 80px;
+    
+}
+
+#article .interactive ul  {
+    display: flex;
+    flex-direction:  row;
+    align-items: flex-start;
+    list-style: none;
+    padding: 10px 0px;
+    
+}
+
+#article .interactive .social-media  li {
+    padding-right: 15px;
+}
+
+
+#comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 250px;
+    background-color: #fff;
+    border: 2px solid rgb(216, 213, 213);
+    padding: 0px 30px 50px 30px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+#comments h3 {
+    padding: 15px 15px 0px 15px;
+    color: #004e87;
+    align-self: flex-start;
+}
+
+#comments .single-comment{
+ 
+    margin: 10px 20px;
+}
+
+#comments .single-comment .comment-info {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0px;
+}
+
+
+
+#comments .single-comment .comment-info img {
+    width: 55px;
+    height: 50px;
+    padding-right: 12px ;
+
+}
+
+#comments .single-comment .comment-info p {
+    line-height: 22px ;
+}
+
+#comments .single-comment  .comment-message p {
+    padding: 25px 0px;
+}
+
+#comments .single-comment  .comment-message .interact-comment-message {
+    padding: 15px 0px;
+}
+
+
+
+#comments .text-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 15px;
+    padding: 0px 20px;
+}
+
+#comments .text-area h4 {
+    padding: 15px 0px;
+}
+
+#comments .text-area textarea {
+    font-size: 18px;
+    padding: 12px;
+    outline: none;
+    margin: 15px 0px;
+    height: 25vh;
+    resize: none;
+    scrollbar-width: none;
+    scroll-behavior: none;
+    border: .05px solid rgba(0, 0, 0, 0.3);
+}
+
+#comments .text-area button {
+    width: 20%;
+    padding: 12px 5px;
+    border: none;
+    color: #fff;
+    background-color: #0373c4;
+    border-radius: 5px ;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 25px 0px;
+    align-self: flex-end;
+    
+}
+
+
+#comments .text-area button:hover {
+    background-color: #004e87;
+}
