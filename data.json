@@ -1,0 +1,387 @@
+[
+    {
+      "category": "General IT",
+      "image": "assets/images/general-it.jpg",
+      "courses": [
+        {
+          "course": "Introduction to Computers",
+          "image": "assets/images/courses/general-it/computers.jpg",
+          "lessons": [
+            {
+              "lesson": "What is a Computer?",
+              "content": "Learn the basic components and types of computers."
+            },
+            {
+              "lesson": "Operating Systems Overview",
+              "content": "Understand the role of operating systems like Windows, macOS, and Linux."
+            }
+          ]
+        },
+        {
+          "course": "Internet Basics",
+          "image": "assets/images/courses/general-it/internet.jpg",
+          "lessons": [
+            {
+              "lesson": "How the Internet Works",
+              "content": "Learn about servers, clients, and the basics of the web."
+            },
+            {
+              "lesson": "Using Web Browsers Safely",
+              "content": "Tips on safe browsing, using bookmarks, and understanding URLs."
+            }
+          ]
+        },
+        {
+          "course": "Computer Hardware",
+          "image": "assets/images/courses/general-it/hardware.jpg",
+          "lessons": [
+            {
+              "lesson": "Inside the Computer",
+              "content": "Learn about CPUs, memory, storage devices, and other hardware components."
+            },
+            {
+              "lesson": "Setting Up a Computer",
+              "content": "How to assemble a basic computer system and install an OS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Front-End Development",
+      "image": "assets/images/frontend.jpg",
+      "courses": [
+        {
+          "course": "HTML & CSS Fundamentals",
+          "image": "assets/images/courses/frontend/html-css.jpg",
+          "lessons": [
+            {
+              "lesson": "Building Your First Web Page",
+              "content": "Create a simple page using HTML and CSS."
+            },
+            {
+              "lesson": "Styling with CSS",
+              "content": "Learn how to apply colors, fonts, and layouts using CSS."
+            }
+          ]
+        },
+        {
+          "course": "JavaScript Essentials",
+          "image": "assets/images/courses/frontend/javascript.jpg",
+          "lessons": [
+            {
+              "lesson": "Variables and Data Types",
+              "content": "Understand how to store and use data in JavaScript."
+            },
+            {
+              "lesson": "Functions and Events",
+              "content": "Learn how to create reusable functions and handle user interactions."
+            }
+          ]
+        },
+        {
+          "course": "Responsive Web Design",
+          "image": "assets/images/courses/frontend/responsive.jpg",
+          "lessons": [
+            {
+              "lesson": "Media Queries",
+              "content": "Learn how to make your website responsive with CSS media queries."
+            },
+            {
+              "lesson": "Flexbox and Grid Layouts",
+              "content": "Create complex layouts using Flexbox and CSS Grid."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Back-End Development",
+      "image": "assets/images/backend.jpg",
+      "courses": [
+        {
+          "course": "Node.js Basics",
+          "image": "assets/images/courses/backend/nodejs.jpg",
+          "lessons": [
+            {
+              "lesson": "Intro to Node.js",
+              "content": "Learn what Node.js is and how to set it up."
+            },
+            {
+              "lesson": "Creating a Simple Server",
+              "content": "Build a basic web server using Node.js."
+            }
+          ]
+        },
+        {
+          "course": "Express.js for Beginners",
+          "image": "assets/images/courses/backend/express.jpg",
+          "lessons": [
+            {
+              "lesson": "Setting Up Express",
+              "content": "Install and create your first Express app."
+            },
+            {
+              "lesson": "Handling Routes",
+              "content": "Learn how to create endpoints for your web app."
+            }
+          ]
+        },
+        {
+          "course": "Databases with MongoDB",
+          "image": "assets/images/courses/backend/mongodb.jpg",
+          "lessons": [
+            {
+              "lesson": "CRUD Operations",
+              "content": "Learn how to Create, Read, Update, and Delete data in MongoDB."
+            },
+            {
+              "lesson": "Connecting MongoDB with Express",
+              "content": "Learn how to connect MongoDB with your Express app."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Full Stack Development",
+      "image": "assets/images/fullstack.jpg",
+      "courses": [
+        {
+          "course": "MERN Stack Introduction",
+          "image": "assets/images/courses/fullstack/mern.jpg",
+          "lessons": [
+            {
+              "lesson": "Overview of MongoDB, Express, React, Node",
+              "content": "Understand each part of the MERN stack and how they work together."
+            },
+            {
+              "lesson": "Setting Up Your Project",
+              "content": "Start your MERN project with folder structure and dependencies."
+            }
+          ]
+        },
+        {
+          "course": "Connecting Frontend & Backend",
+          "image": "assets/images/courses/fullstack/connect.jpg",
+          "lessons": [
+            {
+              "lesson": "REST APIs in MERN",
+              "content": "Learn how to fetch and send data between client and server."
+            },
+            {
+              "lesson": "React Hooks with API Data",
+              "content": "Use `useEffect` and `useState` to display backend data."
+            }
+          ]
+        },
+        {
+          "course": "Authentication in MERN",
+          "image": "assets/images/courses/fullstack/authentication.jpg",
+          "lessons": [
+            {
+              "lesson": "JWT Authentication",
+              "content": "Learn how to implement JSON Web Tokens for user authentication."
+            },
+            {
+              "lesson": "Session Management",
+              "content": "Securely manage user sessions in a web application."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Software Development",
+      "image": "assets/images/software.jpg",
+      "courses": [
+        {
+          "course": "Git & Version Control",
+          "image": "assets/images/courses/software/git.jpg",
+          "lessons": [
+            {
+              "lesson": "Git Basics",
+              "content": "Understand commits, branches, and repositories."
+            },
+            {
+              "lesson": "Working with GitHub",
+              "content": "Learn how to push, pull, and collaborate on GitHub."
+            }
+          ]
+        },
+        {
+          "course": "Software Development Life Cycle",
+          "image": "assets/images/courses/software/sdlc.jpg",
+          "lessons": [
+            {
+              "lesson": "Phases of SDLC",
+              "content": "Discover the different stages of software development."
+            },
+            {
+              "lesson": "Agile vs. Waterfall",
+              "content": "Compare two popular development methodologies."
+            }
+          ]
+        },
+        {
+          "course": "Unit Testing & Debugging",
+          "image": "assets/images/courses/software/testing.jpg",
+          "lessons": [
+            {
+              "lesson": "Writing Unit Tests",
+              "content": "Learn how to write unit tests for your code."
+            },
+            {
+              "lesson": "Debugging Techniques",
+              "content": "Understand how to find and fix bugs in your code."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "DevOps",
+      "image": "assets/images/devops.jpg",
+      "courses": [
+        {
+          "course": "CI/CD Pipeline Basics",
+          "image": "assets/images/courses/devops/cicd.jpg",
+          "lessons": [
+            {
+              "lesson": "What is CI/CD?",
+              "content": "Learn the principles of continuous integration and deployment."
+            },
+            {
+              "lesson": "Setting Up GitHub Actions",
+              "content": "Automate workflows using GitHub Actions."
+            }
+          ]
+        },
+        {
+          "course": "Docker Essentials",
+          "image": "assets/images/courses/devops/docker.jpg",
+          "lessons": [
+            {
+              "lesson": "Containers vs Virtual Machines",
+              "content": "Understand what makes containers different and useful."
+            },
+            {
+              "lesson": "Creating Your First Docker Image",
+              "content": "Learn how to write a Dockerfile and build an image."
+            }
+          ]
+        },
+        {
+          "course": "Kubernetes for Beginners",
+          "image": "assets/images/courses/devops/kubernetes.jpg",
+          "lessons": [
+            {
+              "lesson": "Introduction to Kubernetes",
+              "content": "Learn the basics of container orchestration with Kubernetes."
+            },
+            {
+              "lesson": "Deploying Containers with Kubernetes",
+              "content": "Learn how to manage containers using Kubernetes clusters."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Science",
+      "image": "assets/images/datascience.jpg",
+      "courses": [
+        {
+          "course": "Python for Data Science",
+          "image": "assets/images/courses/datascience/python.jpg",
+          "lessons": [
+            {
+              "lesson": "Working with Pandas",
+              "content": "Load and analyze datasets using Pandas."
+            },
+            {
+              "lesson": "Data Visualization with Matplotlib",
+              "content": "Create basic charts and graphs in Python."
+            }
+          ]
+        },
+        {
+          "course": "Introduction to Machine Learning",
+          "image": "assets/images/courses/datascience/ml.jpg",
+          "lessons": [
+            {
+              "lesson": "What is Machine Learning?",
+              "content": "Understand types of ML and real-world examples."
+            },
+            {
+              "lesson": "Building a Simple Model",
+              "content": "Use scikit-learn to train and evaluate a model."
+            }
+          ]
+        },
+        {
+          "course": "Data Cleaning & Preprocessing",
+          "image": "assets/images/courses/datascience/cleaning.jpg",
+          "lessons": [
+            {
+              "lesson": "Handling Missing Data",
+              "content": "Learn how to fill in or remove missing data in a dataset."
+            },
+            {
+              "lesson": "Feature Scaling",
+              "content": "Understand how to normalize and standardize your data for machine learning."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Security",
+      "image": "assets/images/security.jpg",
+      "courses": [
+        {
+          "course": "Cybersecurity Fundamentals",
+          "image": "assets/images/courses/security/cybersecurity.jpg",
+          "lessons": [
+            {
+              "lesson": "Types of Cyber Threats",
+              "content": "Learn about malware, phishing, and ransomware."
+            },
+            {
+              "lesson": "Password and Network Security",
+              "content": "Best practices for protecting your data."
+            }
+          ]
+        },
+        {
+          "course": "Ethical Hacking Basics",
+          "image": "assets/images/courses/security/ethical.jpg",
+          "lessons": [
+            {
+              "lesson": "What is Ethical Hacking?",
+              "content": "Understand the purpose and legality of penetration testing."
+            },
+            {
+              "lesson": "Common Vulnerabilities",
+              "content": "Explore OWASP Top 10 vulnerabilities."
+            }
+          ]
+        },
+        {
+          "course": "Network Security Essentials",
+          "image": "assets/images/courses/security/network.jpg",
+          "lessons": [
+            {
+              "lesson": "Firewalls and Encryption",
+              "content": "Learn how firewalls protect networks and data encryption works."
+            },
+            {
+              "lesson": "Intrusion Detection Systems",
+              "content": "Understand how to monitor and prevent network intrusions."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

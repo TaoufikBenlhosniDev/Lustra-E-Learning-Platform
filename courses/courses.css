@@ -32,7 +32,11 @@
 
 /* Courses container  */
 
-#courses-layout {
+#courses-layout  h2 {
+    padding: 30px;
+}
+
+#courses-layout .cards {
     display: flex;
     justify-content: center;
     align-items:center;
@@ -42,7 +46,9 @@
 
 }
 
-#courses-layout .card{
+
+
+#courses-layout .cards .card{
     display: flex ;
     flex-direction: column;
     justify-content: center;

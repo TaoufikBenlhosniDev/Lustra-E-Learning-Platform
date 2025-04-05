@@ -27,20 +27,22 @@
     padding-bottom: 50px;
 }
 
-#hero  button {
-    width: 33%;
+#hero  .class-to-action {
+    text-decoration: none;
+    width: 180px;
     padding: 15px 30px;
     border: 0.5px solid #004e87;
+    text-align: center;
     color: #004e87;
     background-color: #fff;
     border-radius: none;
     outline: none;
-    font-size: 18px;
+    font-size: 18px;    
     font-weight: 600;
     cursor: pointer;
 }
 
-#hero  button:hover {
+#hero  .class-to-action:hover {
     color: #fff;
     background-color: #00c3c9;
     border: 1.5px solid #004e87;
@@ -52,7 +54,7 @@
 #categories h1,
 #features h1 {
     
-    padding: 0px 70px;
+    padding: 40px 70px;
 
 }
 
@@ -72,11 +74,15 @@
 #features .cards .card {
     display: flex;
     flex-direction: column;
-    width: 260px;
+    width: 230px;
     flex-direction: column;
     border-radius: 10px;
     margin-bottom: 30px;
    
+}
+
+#features .cards .card {
+    width: 200px;
 }
 
 #categories .cards .card:hover,
@@ -87,7 +93,7 @@
 #categories .cards .card img,
 #features .cards .card img{
     width: 100%;
-    height: 40vh; 
+    height: 30vh; 
 }
 
 #categories .cards .card h3,
